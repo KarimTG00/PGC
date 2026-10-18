@@ -101,6 +101,25 @@ h3{font-size:1.5rem}
 .proofs li{display:flex;align-items:center;gap:8px;font-weight:600;font-size:.95rem}
 .proofs .i{color:#7fe2a0}
 
+
+/* Hero : colonne de droite (ordinateur) */
+.hero-side{position:absolute;right:0;top:150px;bottom:70px;width:300px;display:flex;flex-direction:column;justify-content:space-between;align-items:flex-end}
+.hero-chips{display:grid;gap:12px;justify-items:end}
+.hero-chips li{background:#fff;color:var(--primary);border-radius:14px;padding:12px 18px;display:flex;align-items:baseline;gap:10px;box-shadow:0 14px 30px -14px rgba(0,0,0,.5);animation:float 5s ease-in-out infinite}
+.hero-chips li:nth-child(2){margin-right:36px;animation-delay:-1.6s}
+.hero-chips li:nth-child(3){animation-delay:-3.2s}
+.hero-chips b{font:700 1.9rem var(--font-head);color:var(--accent);line-height:1}
+.hero-chips span{font-size:.85rem;font-weight:600;color:var(--muted)}
+.hero-card{width:100%;background:rgba(255,255,255,.14);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.3);border-radius:18px;padding:18px 20px;color:#fff}
+.hero-card .live{display:flex;align-items:center;gap:8px;font-weight:700;font-size:.9rem}
+.hero-card .live i{width:10px;height:10px;border-radius:50%;background:#3ddc84;box-shadow:0 0 0 0 rgba(61,220,132,.7);animation:pulse 1.8s infinite}
+@keyframes pulse{70%{box-shadow:0 0 0 10px rgba(61,220,132,0)}100%{box-shadow:0 0 0 0 rgba(61,220,132,0)}}
+.hero-card p{font-size:.85rem;color:#e4e9fa;margin:8px 0 12px;line-height:1.45}
+.hero-card a{display:flex;align-items:center;justify-content:center;gap:8px;background:#fff;color:var(--primary);font-weight:700;border-radius:12px;padding:11px;transition:background .2s,color .2s}
+.hero-card a:hover{background:var(--cta);color:#fff}
+@media (min-width:1021px){.hero .proofs{display:none}}
+@media (max-width:1020px){.hero-side{display:none}}
+
 /* ===== Quick quote bar ===== */
 .quote-wrap{padding:36px 0;background:var(--bg)}
 .quote-bar{background:var(--bg-soft);border:1px solid var(--line);border-radius:0;padding:22px 28px;display:grid;grid-template-columns:1.1fr 2fr;gap:24px;align-items:center}
