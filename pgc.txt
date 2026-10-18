@@ -1,0 +1,73 @@
+
+
+Nom : PGC cm
+adresse : Akwa Rue castelnau , 
+crénaue : lundi-samedi a partir de 8h
+devise : un batiment plus sur et plus sain.
+numero de telephone : 693415863
+site web pour se se service de plomberie : 
+Plomberie, tuyauterie & réseaux hydrauliques
+
+
+spécialisé dans les travaux de: � in
+utilise ces mot clés dans les texte site web : plomberie douala, plombier autour de vous,
+plombier professionel douala,
+
+plombier de douala , soucis de plomberies ? , plomberie sanitaire, plomberie pro.
+
+3 mots clé par page (avec 2 ou 3 variante)
+
+worflow des pages : 
+
+une page d'acceuil, 
+une page a propos,
+une page services,
+une page nous contacter.
+
+théme 1: couleurs de l'application on part sur du :#132659(bleu) , #f6f6f6(beige), #ffffff(blanc), 
+#3056e4(bleuclair).
+
+théme 2 :#FFFFFF,#e96429(orange) ,#f2f1f9(gris-blanc), #1e2d34(texte bleu)
+
+
+
+section de la bannière.
+texte pour la baniére : 
+
+VOTRE PLOMBIER PROFESSIONEL PRES DE VOUS.
+Une expertise de qualité pour tous vos probléme de  
+Plomberie, tuyauterie & réseaux hydrauliques.
+deux bouton d'incitation a l'action : un bouton appeller , un bouton whatsapp
+des preuve comme : Disponible 24/7 , Devis gratuit , +100 chantier réaliser.
+
+petit panneau de contact : 
+formulaire horizontale de demande de devis,
+On vous reponds tout de suite, contactez nous maintenant.
+
+section Qui nous sommes : 
+cette section se divise en 2 de manière horizontale (une image(annimé) + storytelling): 
+-Une image, je te fournirrais.
+-un texte story telling , qui met en avant l'utilité de 
+contacter et la valeur apporté. tu mets d'abord en avant les problémes mais tu contextualise aux situation
+que peuvent vivre les prospect et ensuite dans un autre paragraphe tu met en lumière les solutions 
+proposé par pgc cm.
+
+
+# section sur les solution proposé :
+
+dans cette section on présente les différents service proposé : 
+- Plombier Urgence(Tuyau eclate, fuite qui coule vite, eau coupee. On arrive en priorite, de jour comme de nuit dans tout Douala.)
+-Installation sanaitaire (Salle de bain complete, WC, cuisine. Que vous construisez neuf ou que vous renovez, on installe tout proprement avec une garantie.)
+-Fuite d'eau (Fuite visible ou cachee dans les murs. On localise le probleme rapidement et on repare sans casser plus que necessaire.)
+-Debouchage canalisation(WC bouche, evier qui ne coule plus, douche qui stagne. On debouche vos canalisations le jour meme sans abimer les carreaux.)
+-pixine.
+-sécurité incendie
+
+#section comment ça marché 
+
+#nous contacter : 
+#FAQ
+
+Nb: la page services n'existe pas en tant que tel , elle est juste présente dans le header et lorsqu'on passe
+dessus elle affiche tout les services proposé.
+
