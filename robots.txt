@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.pgccm.com/sitemap.xml
+Sitemap: https://www.tadaval.com/sitemap.xml

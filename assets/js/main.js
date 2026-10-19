@@ -1,5 +1,5 @@
 (() => {
-  const PHONE_INTL = "237693415863";
+  const PHONE_INTL = "237686651201";
   const ICONS = {
     phone: '<path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/>',
     wa: '<path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 20.5l1.7-5.4A8.4 8.4 0 1 1 21 11.5z"/><path d="M9 8.5c0 3.5 3 6.5 6.5 6.5l1.3-1.5-2-1-1 .6a4 4 0 0 1-2-2l.6-1-1-2z"/>',
@@ -55,7 +55,7 @@
   document.querySelectorAll("form[data-wa]").forEach(f => f.addEventListener("submit", e => {
     e.preventDefault();
     const d = Object.fromEntries(new FormData(f));
-    const lines = ["Bonjour PGC cm, je souhaite un devis plomberie.",
+    const lines = ["Bonjour Tadaval, je souhaite un devis plomberie.",
       d.nom && `Nom : ${d.nom}`, d.tel && `Téléphone : ${d.tel}`,
       d.service && `Service : ${d.service}`, d.quartier && `Quartier : ${d.quartier}`,
       d.message && `Détails : ${d.message}`].filter(Boolean);
@@ -65,7 +65,7 @@
   /* Thème (1 = bleu, 2 = orange) */
   const root = document.documentElement, btn = document.querySelector(".theme-toggle");
   const apply = t => { t === "2" ? root.setAttribute("data-theme", "2") : root.removeAttribute("data-theme"); if (btn) btn.textContent = t === "2" ? "Thème : orange" : "Thème : bleu"; };
-  let cur = "1"; try { cur = localStorage.getItem("pgc-theme") || "1"; } catch (_) {}
+  let cur = "1"; try { cur = localStorage.getItem("tadaval-theme") || "1"; } catch (_) {}
   apply(cur);
-  btn?.addEventListener("click", () => { cur = cur === "1" ? "2" : "1"; apply(cur); try { localStorage.setItem("pgc-theme", cur); } catch (_) {} });
+  btn?.addEventListener("click", () => { cur = cur === "1" ? "2" : "1"; apply(cur); try { localStorage.setItem("tadaval-theme", cur); } catch (_) {} });
 })();
